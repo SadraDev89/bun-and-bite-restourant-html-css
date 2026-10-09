@@ -2,7 +2,7 @@
 
 A modern and minimal restaurant website built with HTML and CSS.
 
-<img src="screenshot.jpg" alt="screenshot" width="400">
+<img src="screenshot.jpg" alt="screenshot" width="500">
 
 ## ✨ Features
 
