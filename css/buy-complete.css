@@ -1,0 +1,107 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap");
+
+:root {
+    /* Colors */
+    --bg-main: #171717;
+    --bg-card: #222222;
+    --accent: #F28C45;
+    --text-main: #F5EDE3;
+    --text-muted: #B8ADA2;
+    --border-color: #38332F;
+
+    /* Typography */
+    --font-main: "Vazirmatn", sans-serif;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-main);
+    color: var(--text-main);
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.card-buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+    text-align: center;
+
+    background-color: var(--bg-card);
+    width: 100%;
+    max-width: 460px;
+    padding: 40px;
+    border-radius: 18px;
+    border: 1px solid var(--border-color);
+
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+}
+
+#checkbox-img {
+    width: 100%;
+    max-width: 110px;
+    border-radius: 50%;
+}
+
+.card-buy h1 {
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--text-main);
+    line-height: 1.8;
+}
+
+.checklist-p {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    width: 100%;
+    background-color: #292522;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 18px;
+}
+
+.card-buy p {
+    color: var(--text-muted);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card-buy a {
+    background-color: var(--accent);
+    text-decoration: none;
+    color: #171717;
+
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+
+    border-radius: 10px;
+    border: 1px solid var(--accent);
+
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.card-buy a:hover {
+    background-color: #E57A32;
+    border-color: #E57A32;
+}
+
+

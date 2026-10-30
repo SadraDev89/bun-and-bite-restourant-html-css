@@ -4,38 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bun & Bite | برگرهای دست‌ساز و تازه</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Parastoo:wght@400..700&family=Vazirmatn:wght@100..900&display=swap"
-        rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header>
-        <h1>BUN & BITE</h1>
+        <h1>رشت فود</h1>
 
         <nav class="nav-header">
-            <a href="/navigation-header/index.html">خانه</a>
-            <a href="/navigation-header/menu.html">منو</a>
-            <a href="/navigation-header/about.html">درباره ما</a>
+            <a href="index.html">خانه</a>
+            <a href="index.html">منو</a>
+            <a href="about.html">درباره ما</a>
         </nav>
     </header>
+
     <main>
         <section class="hero">
             <div class="image-hero">
-                <img src="assests/food-hero.jpg" alt="about-hero">
+                <img src="assets/index-assets/about.jpg" alt="about-hero">
             </div>
 
             <div class="text-hero">
                 <h2>
-                    <span class="first-span">طعم متفاوت، تجربه متفاوت<br></span>
-                    <span class="second-span"> یه گاز،<br></span>
-                    <span class="triple-span"> برگرهای دست‌ساز با مواد تازه و طعمی فراموش‌نشدنی<br></span>
+                    <span id="first-hero-text">طعم متفاوت، تجربه متفاوت<br></span>
+                    <span id="second-hero-text"> یه گاز،<br></span>
+                    <span id="triple-hero-text"> برگرهای دست‌ساز با مواد تازه و طعمی فراموش‌نشدنی<br></span>
                 </h2>
-                <button class="menu-button">مشاهده منو ←</button>
+                <div class="login-button-hero">
+                    <a href="login.html" id="menu-button">ثبت نام ←</a>
+                </div>
             </div>
         </section>
         <section class="popular">
@@ -43,53 +41,86 @@
             <p class="title-popular">انتخاب‌های ویژه ما برای تو</p>
 
             <div class="image-popular">
-                <div class="image1">
-                    <img src="assests/classic-burger.jpg" alt="classic burger" class="image-food">
-                    <p>کلاسیک برگر<br>
-                        <span class="toman">۲۵۰ هزار تومان </span>
-                    </p>
+                <div class="image">
+                    <img src="assets/index-assets/classic-burger.jpg" alt="classic burger" id="image-food">
+
+                    <div class="text-image-popular">
+                        <h3>کلاسیک برگر </h3>
+                        <span id="toman">۹۳۹ هزار تومان </span>
+
+                        <div class="button-card-popular">
+                            <a href="buy-complete.html" id="buy-button">خرید</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="image2">
-                    <img src="assests/chicken-burger.jpg" alt="chicken burger" class="image-food">
-                    <p>چیکن برگر<br>
-                        <span class="toman">۲۵۰ هزار تومان </span>
-                    </p>
+                <div class="image">
+                    <img src="assets/index-assets/chicken-burger.jpg" alt="chicken burger" id="image-food">
+
+                    <div class="text-image-popular">
+                        <h3> مرغ برگر</h3>
+                        <span id="toman">۸۹۹ هزار تومان </span>
+
+                        <div class="button-card-popular">
+                            <a href="buy-complete.html" id="buy-button">خرید</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="image3">
-                    <img src="assests/fries.jpg" alt="fries" class="image-food">
-                    <p>سیب زمینی<br>
-                        <span class="toman">۲۵۰ هزار تومان </span>
-                    </p>
+
+                <div class="image">
+                    <img src="assets/index-assets/pasta.jpg" alt="pasta" id="image-food">
+
+                    <div class="text-image-popular">
+                        <h3>پاستا</h3>
+                        <span id="toman"> ۱ میلیون تومن</span>
+
+                        <div class="button-card-popular">
+                            <a href="buy-complete.html" id="buy-button">خرید</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="image">
+                    <img src="assets/index-assets/fries.jpg" alt="fries" id="image-food">
+
+                    <div class="text-image-popular">
+                        <p>سیب زمینی</p>
+                        <span id="toman">۸۰۰ هزار تومن</span>
+
+                        <div class="button-card-popular">
+                            <a href="buy-complete.html" id="buy-button">خرید</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="about-restourant">
             <div class="about-image">
-                <img src="assests/about.jpg" alt="about restourant" class="image-about">
+                <img src="assets/index-assets/restourant-review.jpg" alt="about restourant" class="image-about">
                 <span class="about-button">درباره</span>
             </div>
             <div class="about-text">
-                <p class="text1-about">داستان طعم ما</p>
-                <p class="text2-about">از انتخاب مواد اولیه تا آماده‌سازی هر برگر، کیفیت برای ما اولویت دارد.</p>
+                <p id="text1-about">داستان طعم ما</p>
+                <p id="text2-about">از انتخاب مواد اولیه تا آماده‌سازی هر برگر، کیفیت برای ما اولویت دارد.</p>
                 <div class="button-about3">
-                    <button class="about-button2">بیشتر درباره ما</button>
+                    <a href="about.html" id="about-button2">درباره ما</a>
                 </div>
             </div>
         </section>
     </main>
+
     <footer>
-        <section class="text4">
-            <p id="bun-bite2">BUN & BITE.</p>
+        <section class="text-footer">
+            <p id="rasht-food">رشت فود</p>
             <p id="hes-khob">طعم خوب، حال خوب.</p>
         </section>
         <section class="end">
             <nav class="nav-footer">
-                <a href="navigation-header/call.html">تماس با ما</a>
-                <a href="navigation-header/instagram.html">اینستاگرام</a>
+                <a href="call.html">تماس با ما</a>
+                <a href="instagram.html">اینستاگرام</a>
             </nav>
 
-            <p id="copyright">© 2026 BUN & BITE</p>
+            <p id="copyright">© 2026 RASHT FOOD</p>
         </section>
     </footer>
 
