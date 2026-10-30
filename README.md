@@ -1,4 +1,4 @@
-# 🍔 BUN & BITE
+# 🍔 Rasht Food
 
 A modern and minimal restaurant website built with HTML and CSS.
 
