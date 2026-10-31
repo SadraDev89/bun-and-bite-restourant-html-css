@@ -5,7 +5,7 @@
     /* Colors */
     --bg-main: #171717;
     --bg-card: #222222;
-    --accent: #F28C45;
+    --accent: #f56600;
     --text-main: #F5EDE3;
     --text-muted: #B8ADA2;
     --border-color: #38332F;
@@ -116,7 +116,7 @@ header h1 {
     padding: 10px;
     margin-top: 10px;
     text-align: center;
-    background-color: #F28C45;
+    background-color: var(--accent);
     border-radius: var(--button-radius);
     font-weight: 500;
     cursor: pointer;
@@ -125,7 +125,7 @@ header h1 {
 }
 
 #menu-button:hover {
-    background-color: #E57A32;
+    background-color: var(--accent);
 }
 
 .image-popular {
@@ -136,7 +136,7 @@ header h1 {
 
 #image-food {
     width: 100%;
-    height: 220px;
+    height: 250px;
     border: none;
     border-radius: 10px;
 }
@@ -161,7 +161,7 @@ header h1 {
 }
 
 #toman {
-    color: #F28C45;
+    color: var(--accent);
     font-size: 15px;
     font-weight: 600;
 }
@@ -217,12 +217,12 @@ header h1 {
 #about-button2 {
     width: 50%;
     margin-top: 25px;
-    border: 2px solid #F28C45;
+    border: 2px solid var(--accent);
     outline: none;
     padding: 10px;
     border-radius: 8px;
     background-color: var(--bg-main);
-    color: #F28C45;
+    color: var(--accent);
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -240,9 +240,13 @@ footer {
     line-height: 1.8;
 }
 
+.about-text {
+    margin: 20px;
+}
+
 #rasht-food {
     font-size: 20px;
-    color: #F28C45;
+    color: var(--accent);
     font-weight: 700;
 }
 
@@ -280,13 +284,13 @@ footer {
     text-align: center;
     text-decoration: none;
     color: #171717;
-    background-color: #F28C45;
+    background-color: var(--accent);
     border-radius: 8px;
     font-weight: 700;
 }
 
 #buy-button:hover {
-    background-color: #E57A32;
+    background-color: var(--accent);
 }
 
 .text-image-popular {
@@ -303,6 +307,8 @@ footer {
 }
 
 .image {
+    width: 100%;
+    max-width: 280px;
     background-color: #292522;
     border-radius: 10px;
     border: 1px solid var(--border-color);
